@@ -1,8 +1,10 @@
+globaldriver amdgpu
+globalminer claymore
 maxgputemp 85
 stratumproxy enabled
 proxywallet 0x335EaB269e31De3E3A00Ca6fb746A7C0f2eAe72C
-proxypool1 pool-eu.ethosdistro.com:5001
-proxypool2 pool-usa.ethosdistro.com:5001
+proxypool1 eu1.ethermine.org:4444
+proxypool2 eu1.ethermine.org:14444
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 
